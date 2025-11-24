@@ -1,7 +1,10 @@
 import React from 'react'
+import SharedBanner from '../../../shared/SharedBanner'
 
 export default function page() {
   return (
-    <div>courses</div>
+    <div>
+      <SharedBanner></SharedBanner>
+    </div>
   )
 }
