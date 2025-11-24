@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaBoltLightning } from "react-icons/fa6";
 
@@ -47,6 +48,8 @@ export default function Courses() {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 lg:px-12 py-6 px-2 gap-6">
   {
    filterCourse?.slice(0,9).map(course => (
+    <div>
+     <Link href={`/courses/${course.category_id}`}>
       <div key={course.course_id} className="shadow-md bg-white rounded-xl overflow-hidden border border-gray-300">
         
         {/* Thumbnail */}
@@ -101,6 +104,7 @@ export default function Courses() {
           </button>
         </div>
 
+      </div></Link>
       </div>
     ))
   }
