@@ -115,7 +115,7 @@ const Banner = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                     
                     {/* Left Side: Image Collage and Support Box */}
-                    <div className="lg:w-1/2 w-full relative h-[450px] sm:h-[500px] lg:h-[600px] fade-in-bottom" style={{ animationDelay: '0.1s' }}>
+                    <div className="lg:w-1/2 w-full relative h-[450px] sm:h-[500px] lg:h-[600px] fade-in-left" style={{ animationDelay: '2s' }}>
                         
                         {/* Image 1 (Front, Video Player Look) */}
                         <div className="absolute top-0 left-0 w-3/5 h-3/5 sm:w-1/2 sm:h-1/2 rounded-3xl shadow-2xl overflow-hidden z-10">
@@ -172,23 +172,23 @@ const Banner = () => {
                     <div className="lg:w-1/2 w-full mt-12 lg:mt-0">
                         
                         {/* Badge */}
-                        <div className="flex items-center space-x-2 text-sm text-teal-600 font-semibold mb-4 fade-in-bottom" style={{ animationDelay: '0.4s' }}>
+                        <div className="flex items-center space-x-2 text-sm text-teal-600 font-semibold mb-4 fade-in-bottom" style={{ animationDelay: '2s' }}>
                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='text-orange-500'><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/><path d="M16 13l-4 4-4-4"/></svg>
                              <span>Get More About Us</span>
                         </div>
 
                         {/* Title - Fade In From Left */}
-                        <h2 className="text-4xl lg:text-4xl font-extrabold text-gray-900 leading-snug mb-6 fade-in-left" style={{ animationDelay: '0.6s' }}>
+                        <h2 className="text-4xl lg:text-4xl font-extrabold text-gray-900 leading-snug mb-6 fade-in-bottom" style={{ animationDelay: '2s' }}>
                             Over 10 Years in Distant learning for <span className="text-teal-600">Skill Development</span>
                         </h2>
 
                         {/* Description - Fade In From Bottom */}
-                        <p className="text-gray-600 mb-8 max-w-lg fade-in-bottom" style={{ animationDelay: '0.8s' }}>
+                        <p className="text-gray-600 mb-8 max-w-lg fade-in-bottom" style={{ animationDelay: '2s' }}>
                             Compellingly procrastinate equity invested markets with efficient process improvements. actualize mission-critical partnerships with integrated portals. Authoritatively optimize low-risk high-yield metrics and plug-and-play potentialities.
                         </p>
 
                         {/* Stats Container - Fade In From Bottom */}
-                        <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-8 mb-10">
+                        <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-8 mb-10 ">
                             
                             {/* Stat Card 1 */}
                             <div className="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-lg flex-1 border-b-4 border-teal-500 fade-in-bottom" style={{ animationDelay: '1s' }}>
@@ -215,7 +215,7 @@ const Banner = () => {
 
                         {/* CTA Button - Fade In From Bottom */}
                         <button 
-                            className="bg-teal-500 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:bg-teal-600 transition duration-300 transform active:scale-95 fade-in-bottom"
+                            className="bg-teal-500 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:bg-teal-600 transition duration-300 transform active:scale-95 fade-in-bottom cursor-pointer"
                             style={{ animationDelay: '1.4s' }}
                         >
                             Start Free Trial

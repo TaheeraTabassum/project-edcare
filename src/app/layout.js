@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../../shared/Header";
+import Footer from "../../shared/Footer";
 
 
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       >
      <Header></Header>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
