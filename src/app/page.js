@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import Category from "@/components/Category";
 import Courses from "@/components/Courses";
 import Hero from "@/components/Hero";
+import Rate from "@/components/Rate";
 
 
 export default function page() {
@@ -12,6 +13,8 @@ export default function page() {
       <Banner></Banner>
 
       <Category></Category>
+
+      <Rate></Rate>
 
       <Courses></Courses>
 
