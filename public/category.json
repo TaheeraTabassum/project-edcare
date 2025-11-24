@@ -1,52 +1,57 @@
 [
   {
+    "id":"",
+    "category_name":"All Categories"
+  }
+  ,
+  {
     "id": 1,
     "category_name": "Business Management",
-    "icon_class": "lightbulb-o"
+    "icon_class": "/assets/about-1.png"
   },
   {
     "id": 2,
     "category_name": "Arts & Design",
-    "icon_class": "palette"
+    "icon_class": "/assets/about-2.png"
   },
   {
     "id": 3,
     "category_name": "Personal Development",
-    "icon_class": "gem"
+    "icon_class": "/assets/category-1.png"
   },
   {
     "id": 4,
     "category_name": "Health & Fitness",
-    "icon_class": "heartbeat"
+    "icon_class": "/assets/about-1.png"
   },
   {
     "id": 5,
     "category_name": "Marketing",
-    "icon_class": "bullhorn"
+    "icon_class": "/assets/about-2.png"
   },
   {
     "id": 6,
     "category_name": "Business & Finance",
-    "icon_class": "calculator"
+    "icon_class": "/assets/category-1.png"
   },
   {
     "id": 7,
     "category_name": "Computer Science",
-    "icon_class": "desktop"
+    "icon_class": "/assets/about-1.png"
   },
   {
     "id": 8,
     "category_name": "Video & Photography",
-    "icon_class": "camera"
+    "icon_class": "/assets/about-2.png"
   },
   {
     "id": 9,
     "category_name": "Data Science",
-    "icon_class": "bar-chart"
+    "icon_class": "/assets/category-1.png"
   },
   {
     "id": 10,
     "category_name": "Web Development",
-    "icon_class": "code"
+    "icon_class": "/assets/about-1.png"
   }
 ]

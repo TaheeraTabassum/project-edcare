@@ -135,7 +135,7 @@ const Banner = () => {
                                       {/* if there is a button in form, it will close the modal */}
                                       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                     </form>
-                                  <iframe width="460" height="315" src="https://www.youtube.com/embed/JYY63tWfkSA?si=EhqhASOdrsdb0kMJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                  <iframe width="460" height="315" src="https://www.youtube.com/embed/JYY63tWfkSA?si=EhqhASOdrsdb0kMJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                                   </div>
                                 </dialog>
                                                            

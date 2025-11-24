@@ -17,6 +17,8 @@
     "quizzes": 0,
     "tags": ["Best Seller", "Latest"],
     "description": "Learn to produce practical and effective User Experience (UX) and User Interface (UI) designs using Adobe XD. Follow along with real-life freelance project files to create high quality, functional mockups, test on mobile devices, and prepare assets for developers."
+    ,
+    "image": "/assets/course-img-1.png"
   },
   {
     "course_id": "CS002",
@@ -34,7 +36,8 @@
     "level": "Beginners",
     "language": "English",
     "quizzes": 5,
-    "tags": ["Popular"]
+    "tags": ["Popular"],
+    "image": "/assets/course-img-2.png"
   },
   {
     "course_id": "MKT003",
@@ -52,7 +55,8 @@
     "level": "All Levels",
     "language": "English",
     "quizzes": 8,
-    "tags": ["Latest", "Best Seller"]
+    "tags": ["Latest", "Best Seller"],
+    "image": "/assets/course-img-3.png"
   },
   {
     "course_id": "ART004",
@@ -70,7 +74,8 @@
     "level": "Intermediate",
     "language": "English",
     "quizzes": 0,
-    "tags": ["Highly Rated"]
+    "tags": ["Highly Rated"],
+    "image": "/assets/course-img-4.png"
   },
   {
     "course_id": "FIN005",
@@ -88,7 +93,8 @@
     "level": "Advanced",
     "language": "English",
     "quizzes": 10,
-    "tags": ["Certification"]
+    "tags": ["Certification"],
+    "image": "/assets/course-img-5.png"
   },
   {
     "course_id": "HEALTH006",
@@ -106,7 +112,8 @@
     "level": "Beginners",
     "language": "English",
     "quizzes": 6,
-    "tags": ["Best Seller"]
+    "tags": ["Best Seller"],
+    "image": "/assets/course-img-3.png"
   },
   {
     "course_id": "DS007",
@@ -124,7 +131,8 @@
     "level": "Intermediate",
     "language": "English",
     "quizzes": 7,
-    "tags": ["Popular"]
+    "tags": ["Popular"],
+    "image": "/assets/course-img-4.png"
   },
   {
     "course_id": "VID008",
@@ -142,7 +150,8 @@
     "level": "Beginners",
     "language": "English",
     "quizzes": 4,
-    "tags": ["Short Course"]
+    "tags": ["Short Course"],
+    "image": "/assets/course-img-1.png"
   },
   {
     "course_id": "BUS009",
@@ -161,7 +170,8 @@
     "language": "English",
     "quizzes": 9,
     "tags": ["Certification", "Latest"],
-    "description": "Master the principles, tools, and techniques for successful project management, covering the PMBOK® guide structure and preparing you for the PMP certification exam."
+    "description": "Master the principles, tools, and techniques for successful project management, covering the PMBOK® guide structure and preparing you for the PMP certification exam.",
+    "image": "/assets/course-img-5.png"
   },
   {
     "course_id": "PD010",
@@ -180,6 +190,7 @@
     "language": "English",
     "quizzes": 3,
     "tags": ["Quick Learning", "Popular"],
-    "description": "A practical course focused on leveraging psychological research to build lasting positive habits, break bad ones, and maximize personal and professional productivity."
+    "description": "A practical course focused on leveraging psychological research to build lasting positive habits, break bad ones, and maximize personal and professional productivity.",
+    "image": "/assets/course-img-2.png"
   }
 ]
