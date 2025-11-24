@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "category_name": "Business Management",
+    "icon_class": "lightbulb-o"
+  },
+  {
+    "id": 2,
+    "category_name": "Arts & Design",
+    "icon_class": "palette"
+  },
+  {
+    "id": 3,
+    "category_name": "Personal Development",
+    "icon_class": "gem"
+  },
+  {
+    "id": 4,
+    "category_name": "Health & Fitness",
+    "icon_class": "heartbeat"
+  },
+  {
+    "id": 5,
+    "category_name": "Marketing",
+    "icon_class": "bullhorn"
+  },
+  {
+    "id": 6,
+    "category_name": "Business & Finance",
+    "icon_class": "calculator"
+  },
+  {
+    "id": 7,
+    "category_name": "Computer Science",
+    "icon_class": "desktop"
+  },
+  {
+    "id": 8,
+    "category_name": "Video & Photography",
+    "icon_class": "camera"
+  },
+  {
+    "id": 9,
+    "category_name": "Data Science",
+    "icon_class": "bar-chart"
+  },
+  {
+    "id": 10,
+    "category_name": "Web Development",
+    "icon_class": "code"
+  }
+]

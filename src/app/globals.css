@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
   --background: #ffffff;
@@ -24,3 +25,45 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fade In From Left Keyframes */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-50px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Class for Fade In From Left */
+.fade-in-left {
+    animation-name: fadeInLeft;
+    animation-fill-mode: both;
+    animation-duration: 1s; /* Default duration */
+}
+
+/* Fade In From Bottom Keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 30px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Class for Fade In From Bottom */
+.fade-in-bottom {
+    animation-name: fadeInUp;
+    animation-fill-mode: both;
+    animation-duration: 0.8s; /* Default duration */
+}
+
+/* ----------------------------------------- */
+/* --- NEW FADE-IN ANIMATION CLASSES END --- */
+/* ----------------------------------------- */
