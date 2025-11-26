@@ -1,4 +1,6 @@
 "use client"
+import { useDispatch } from "react-redux";
+import { addToCart } from "@/app/Redux/cartSlice";
 import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import SharedBanner from '../../../../shared/SharedBanner';
@@ -9,6 +11,7 @@ import { BiTimeFive } from "react-icons/bi";
 import { RiGraduationCapLine } from "react-icons/ri";
 
 export default function page() {
+  const dispatch = useDispatch();
     const {id} = useParams();
      const [courses, setCourses] = useState([]);
       useEffect(() => {
@@ -91,7 +94,7 @@ export default function page() {
         <div>
           <div className="shadow-md bg-white rounded-xl p-6 border">
             <p className="text-3xl font-bold mb-3">${findID.price.toFixed(2)}</p>
-            <button className=" btn cursor-pointer bg-green-600 w-full text-white font-semibold py-2 rounded-lg mb-2">
+            <button  onClick={() => dispatch(addToCart(findID))} className=" btn cursor-pointer bg-green-600 w-full text-white font-semibold py-2 rounded-lg mb-2">
               ADD TO CART
             </button>
             <button className="border  btn cursor-pointer  w-full text-green-600 font-semibold py-2 rounded-lg">

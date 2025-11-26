@@ -1,5 +1,6 @@
 
 "use client"
+import { useSelector } from 'react-redux';
 import React, { useState } from 'react';
 import { TbCategoryFilled } from "react-icons/tb";
 import {
@@ -20,6 +21,7 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+
 
 // --- Top Bar Component ---
 const HeaderTop = () => (
@@ -63,7 +65,7 @@ const HeaderTop = () => (
 );
 
 // --- Main Navigation Component ---
-const HeaderMain = ({ toggleMenu }) => (
+const HeaderMain = ({ toggleMenu, itemCount }) => (
   <div className="bg-white shadow-sm">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
       <div className="flex justify-between items-center">
@@ -127,11 +129,14 @@ const HeaderMain = ({ toggleMenu }) => (
           </div>
 
           {/* Cart Icon */}
+       
           <div className="relative hidden sm:block">
-            <button className="p-2 border border-gray-200 rounded-full hover:bg-gray-100 transition duration-150">
+              <Link href="/cart">
+            <button className="p-2 cursor-pointer border border-gray-200 rounded-full hover:bg-gray-100 transition duration-150">
               <ShoppingCart size={20} className="text-gray-600" />
             </button>
-            <span className="absolute -top-1 -right-1 bg-teal-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">0</span>
+            </Link>
+            <span className="absolute -top-1 -right-1 bg-teal-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">{itemCount}</span>
           </div>
 
           {/* Start Free Trial Button */}
@@ -225,6 +230,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => (
 
 // --- Main Export Component ---
 export default function Header() {
+  const itemCount = useSelector((state)=>state.cart.totalQuantity)
   const [isMenuOpen, setIsMenuOpen] = useState(false);
     const pathname = usePathname();
 
@@ -239,9 +245,9 @@ export default function Header() {
   return (
     <header className="w-full">
       <HeaderTop />
-      <HeaderMain toggleMenu={toggleMenu} />
+      <HeaderMain toggleMenu={toggleMenu} itemCount={itemCount} />
       <MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
-     <div className=' flex items-center justify-center lg:justify-start gap-10 lg:gap-32 lg:px-10 my-3'>
+     <div className=' max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3" flex items-center justify-center lg:justify-start gap-10 lg:gap-32 lg:px-10 my-3'>
             <div className='flex items-center gap-1 '>
                 <TbCategoryFilled className='text-green-600' />
                 <p className='font-bold text-lg  hidden lg:block'>Categories</p>
